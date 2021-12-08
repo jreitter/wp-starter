@@ -1,2 +1,2 @@
-# wp-starter
-Minimal Wordpress Starter Theme
+# Minimal Wordpress Starter Theme
+Minimal Wordpress Theme for developing Custom Websites
