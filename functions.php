@@ -53,7 +53,7 @@ add_action( 'after_setup_theme', 'jr_setup' );
 // Enqueue Scripts & Styles
 function jr_scripts() {
 	// Main Stylesheet
-  	wp_resiter_style( 'theme', get_stylesheet_uri() );
+  	wp_register_style( 'theme', get_stylesheet_uri() );
 	wp_enqueue_style( 'theme' );
 	
 	// Move jQuery to the Footer
