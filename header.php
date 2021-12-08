@@ -1,3 +1,12 @@
+<?php 
+
+// Custom Body Classes
+$classes = array(
+    'custom',
+);
+
+?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -11,5 +20,5 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#29211d;">
 
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class($classes); ?>>
 <?php wp_body_open(); ?>
