@@ -62,7 +62,8 @@ function jr_scripts() {
 	wp_enqueue_script( 'jquery' );  
 
 	// Main Javascript File
-  	wp_register_script( 'main', get_template_directory_uri() . '/inc/js/main.js', NULL, 'jquery', true );
+  	wp_register_script( 'main', get_template_directory_uri() . '/inc/js/main.js', 'jquery', NULL, true );
 	wp_enqueue_script( 'main' );  
 }
 add_action( 'wp_enqueue_scripts', 'jr_scripts' );
+
