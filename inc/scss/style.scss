@@ -1,14 +1,16 @@
 /*!
-Theme Name: TPACO
+Theme Name: JREITTER21
 Author: Johannes Reitter
 Author URI: https://www.jreitter.com
 Version: 1.0
-Text Domain: tpa
+Text Domain: jr
 */
 
 // --------------------------------- Third Party ---------------------------------
+@use '../../node_modules/normalize.css/normalize' as *;
 
 // --------------------------------- Theme ---------------------------------
-@use 'partial' as *;
+@use 'global' as *;
 
 // --------------------------------- Vanilla Imports ---------------------------------
+@import url("https://use.typekit.net/ymo3ixq.css");

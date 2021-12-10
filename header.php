@@ -22,3 +22,5 @@ $classes = array(
 </head>
 <body <?php body_class($classes); ?>>
 <?php wp_body_open(); ?>
+
+<main class="content--main"> <!-- End Main Content Wrapper -->
